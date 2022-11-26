@@ -1,0 +1,77 @@
+.container {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.header {
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+}
+
+.form input {
+    flex: 1;
+    border: 2px solid #634BF5;
+    border-radius: 3px;
+    padding-left: 15px;
+    outline: none;
+}
+
+
+.form button {
+    background-color: #634BF5;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #634BF5;
+}
+
+.content {
+    flex: 1;
+}
+
+.star {
+    padding: 0 15px;
+}
+
+.star button {
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_delete button {
+    font-size: 22px;
+    color: red;
+    padding-right: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #FFF6D6;
+}
+
+.selected .star button {
+    color: #FFD231;
+}
